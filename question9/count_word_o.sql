@@ -1,0 +1,2 @@
+SELECT LENGTH('This sentence has five words. Here are five more words. Five-word sentences are fine. But several together become monotonous.') - 
+       LENGTH(REPLACE('This sentence has five words. Here are five more words. Five-word sentences are fine. But several together become monotonous.', 'o', '')) AS count_word_o;
